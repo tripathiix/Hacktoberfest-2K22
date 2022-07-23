@@ -1,3 +1,4 @@
+
 #for loop
 
 mobile = ["Samsung","Apple","Google","oneplus"]
