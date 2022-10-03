@@ -1,5 +1,5 @@
 print("hello world")
-print('hello Moon')
+print('hello Python')
 print("hello \'Earth\' Jupyter") #use single quote
 print('hello \"Earth\" Python') #use double quote
 print("hello Hulk \nhello iron Man") #new line
