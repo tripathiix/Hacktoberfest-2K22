@@ -9,3 +9,7 @@ print("hello h\b Captain") #use backspace (eg:remove h from "hello h captain")
 
 A=3
 print(A)
+
+
+b=5
+print(b+5)
