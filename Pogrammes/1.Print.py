@@ -1,7 +1,7 @@
 print("hello world")
 print('hello Python')
 print("hello \'Earth\' Jupyter") #use single quote
-print('hello \"Earth\" Python') #use double quote
+print('hello \"Earth\" Django') #use double quote
 print("hello Hulk \nhello iron Man") #new line
 print("hello \\ Marvel") #use backslash
 print("hello \tSpider Man") #use tab
