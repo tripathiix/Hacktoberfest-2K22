@@ -1,4 +1,4 @@
-#Exercise 1
+#Exercise 1 for Python
 
 #output :line a
 #        line b \\ line c
