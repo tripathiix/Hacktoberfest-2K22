@@ -6,3 +6,6 @@ print("hello Hulk \nhello iron Man") #new line
 print("hello \\ Marvel") #use backslash
 print("hello \tSpider Man") #use tab
 print("hello h\b Captain") #use backspace (eg:remove h from "hello h captain")
+
+A=3
+print(A)
