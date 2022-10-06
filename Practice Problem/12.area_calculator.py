@@ -1,14 +1,16 @@
 #Find area using python
+import math
 
 while True:
 
 	print("\n")
-	print("FInd area of Square , Ractangle , Circle , Triangle.")
+	print("FInd area of Square , Ractangle , Circle , Triangle, Pythagorean theorem.")
 	print("\n")
 	print("Enter 1 if you find area of Square")
 	print("Enter 2 if you find area of Ractangle")
 	print("Enter 3 if you find area of Circle")
 	print("Enter 4 if you find area of Triangle")
+	print("Enter 5 if you find area of Pythagorean theorem")
 	print("Enter 0 if you want to exit the pogramm")
 	print("\n")
 	n = int(input("Enter number :- "))
@@ -47,8 +49,17 @@ while True:
 					r = s-c
 
 					print(f"Area of Triangle is {(s*(p*q*r))**0.5}")
+	      			else:
+	      				if n==5:
+						print("Enter side AB & BC for find hypotenuse lenth")
+						a = int(input("Enter side AB :- "))
+						b = int(input("Enter side BC :- "))	 
+						c = math.sqrt(a ** 2 + b ** 2)
+						print(f"Hypotenuse of triangle is {c}")
 
-				else:
-					if n == 0:
-						print("Have a nice day")	
-						break
+	      					
+
+					else:
+						if n == 0:
+							print("Have a nice day")	
+							break
