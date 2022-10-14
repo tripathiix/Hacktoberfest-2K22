@@ -25,3 +25,7 @@ print(math.sqrt(3.5))
 #The abs() function returns the absolute (positive) value of the specified number
 x = abs(-7.25)
 print(x)
+
+#The pow(x, y) function returns the value of x to the power of y (xy)
+x = pow(4, 3)
+print(x)
