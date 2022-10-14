@@ -21,3 +21,7 @@ print(math.sqrt(4))
   
 # print the square root of 3.5
 print(math.sqrt(3.5)) 
+
+#The abs() function returns the absolute (positive) value of the specified number
+x = abs(-7.25)
+print(x)
